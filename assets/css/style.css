@@ -271,7 +271,8 @@
     margin-bottom: 30px;
   }
   .img-fluid {
-    width: 280px;
+    width: 240px;
+    border-radius: 5px;
   }
   .aos-init {
     text-align: center;
@@ -377,7 +378,9 @@ section {
   text-align: justify;
   font-size: large;
 }
-
+.content{
+  margin: 40px auto;
+}
 @media (max-width: 768px) {
   .aboutText {
     text-align: justify;
@@ -386,12 +389,32 @@ section {
   .about {
     height: auto;
   }
+  .content{
+    margin: 0 20px;
+  }  
 }
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills{
+  height: 100vh;
+}
+.skills-content{
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  .skills{
+    height: auto;
+  }
+.skills-content h5, .skill{
+  text-align: left;
+}
 
+.skills-content h6{
+  font-size: smaller;
+}
+}
 .skills .progress {
   height: 50px;
   display: block;
@@ -441,7 +464,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-
+#portfolio img{
+  border-radius: 0;
+}
 .themen {
   font-size: small;
   line-height: 15px;
@@ -558,6 +583,9 @@ section {
   }
   .col-lg-4{
     margin: 30px 0;
+  }
+  #portfolio img{
+    border-radius: 0;
   }
 }
 
@@ -710,6 +738,9 @@ section {
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
+  }
+  .portfolio-info{
+    text-align: left;
   }
 }
 
