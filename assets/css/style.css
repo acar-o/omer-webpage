@@ -467,11 +467,6 @@ section {
 #portfolio img{
   border-radius: 0;
 }
-.themen {
-  font-size: small;
-  line-height: 15px;
-  height: 100px;
-}
 
 .portfolio .portfolio-item {
   margin-bottom: 20px;
