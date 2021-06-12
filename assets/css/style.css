@@ -411,7 +411,7 @@ section {
 
 @media (max-width: 768px) {
   .skills {
-    height: 0;
+    height: auto;
   }
   .skills-content h5, .skill {
     text-align: left;
@@ -455,7 +455,7 @@ section {
 
 .cert {
   border-left: 1px solid gray;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .cert h5, h6 {
