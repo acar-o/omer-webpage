@@ -576,7 +576,13 @@ section {
   padding: 30px 0 !important;
   height: 100vh;
 }
-
+.forMore{
+  text-align: center;
+  height: 28px;
+  border:1px solid #149DDD;
+  font-weight: 600;
+  margin-top: 40px;
+}
 @media (max-width: 768px) {
   #portfolio {
     background: #F5F8FD;
@@ -585,11 +591,16 @@ section {
   }
   .col-lg-4 {
     margin: 30px 0;
-    height: 430px;
+    height: auto;
+    border-bottom: lightslategray 1px solid;
   }
   #portfolio img {
     border-radius: 0;
   }
+  
+.forMore{
+  margin-top: 0px;
+}
 }
 
 @-webkit-keyframes animate-loading {
