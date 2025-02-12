@@ -7,6 +7,16 @@
 !(function($) {
   "use strict";
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const startYear = 2020;
+    const currentYear = new Date().getFullYear();
+    const experienceYears = currentYear - startYear;
+    
+    document.getElementById("year").textContent = experienceYears;
+});
+
+
+
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
